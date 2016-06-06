@@ -1,0 +1,46 @@
+.steps-container{
+  display: block;
+}
+
+.steps-container .step{
+  float: left;
+  text-align: center;
+}
+
+
+.steps-container .step .step-icon{
+  width: 50px;
+  height: 50px;
+  line-height: 30px;
+  border: 10px solid #E3E8F4;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  background-color: #FFFFFF;
+  z-index: 1000;
+}
+
+.steps-container .step-bar{
+  float: left;
+  height: 10px;
+  display: block;
+  background-color: #E3E8F4;
+
+  margin-top: 20px;
+}
+
+.active-bar{
+  background-color: #3CC5AC !important;
+}
+
+.steps-container .step-active .step-icon{
+  width: 50px;
+  height: 50px;
+  line-height: 30px;
+  border: 10px solid #3CC5AC;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  background-color: #FFFFFF;
+  z-index: 1000;
+}
